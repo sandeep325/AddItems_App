@@ -1,13 +1,165 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{box-sizing: border-box; 
+  padding: 0; 
+  margin: 0; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main_div{
+          width: 100%;
+          min-height: 100vh;
+          height: 100%;
+          background-color:rgb(13, 48, 80);
+          display: flex;
+          flex-direction:row;
+          justify-content:center ;
+          align-items: center;
+          text-align: center;
+          }
+
+ .center_div{
+            width: 25%;
+            min-height: 80vh;
+            height: auto;
+            background-color:#f4f4f4;
+            border-radius: 6px;
+            box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);            
+           }         
+
+    h1{
+      color: white;
+      background: transparent;
+      background-color:rgb(236, 67, 137);
+      padding: 6px 0 2px 0;
+      margin-bottom:10px;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);    
+       }       
+
+       .b_style{
+         color:white;
+         cursor: pointer;
+       }
+       .b_style:hover{
+         color: lightskyblue;
+       }
+
+       .i_style{
+        text-align: center;
+        color: cornflowerblue;
+
+       }
+       .i_style:hover{
+        color: blue;
+
+       }
+   input{
+
+       text-align: center;
+       height: 30px;
+       top: 10px;
+       border: none;
+       background: transparent;
+       font-size: 21px;
+       font-weight: 500;
+       width:60%;
+       border-bottom: 2px solid rgb(236, 67, 137);
+       outline:none
+        
+       }    
+
+button  {
+
+          min-height: 40px;
+         min-width:40px;
+         border-color: transparent;
+         border-radius: 50%;
+         background-color:rgb(236, 67, 137);
+         color: white;
+         font-size: 30px;
+         outline: none;
+         border:none;
+         margin-left: 12px;
+       box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+       }
+
+
+button:hover{
+  background-color: green;
+  font-size: 31px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ol  { margin-top:30px;}
+
+
+ol li {
+      padding-left: 0px;
+      text-align: left;
+      font-size: 20px;
+      font-weight: 500;
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      color: rgb(236, 67, 137);
+      text-transform: capitalize;
+      
+      border-radius: 6px;
+      border-bottom: 1px solid rgb(56, 55, 55) ;
+      /* background-color:rgb(189, 185, 185); */
+      box-shadow: 5px 5px 15px -5px rgba(109, 104, 104, 0.3);
+
+      }
+
+      .todo_style{
+  display: flex;
+flex-direction:row ;
+justify-content: left;
+align-items: center;
+      }
+      
+.todo_style .fa-times{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 67, 137);
+  border-radius: 50%;
+  margin: 0 15px 0 35px ;
+  color: aliceblue;
+ box-shadow: 5px 5px 15 -5px rgba(0, 0, 0, 0.3);
+cursor: pointer;
+}
+
+
+.todo_style .fa-times:hover{
+  background-color: crimson;
+
+}
+
+.todo_style .fa-times:hover .list_style{
+  background-color: crimson;
+}
+
+
+@media(max-width :768px){
+
+.center_div{
+  width: 56%;
+}
+
+.todo_style .fa-times{
+  margin: 0 15px 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button{
+  margin-left: 6px;
+  min-height: 40px;
+width: 40px;
+color: #fff;
+font-size: 30px;
+}
+
 }
