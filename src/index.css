@@ -138,12 +138,13 @@ cursor: pointer;
 .todo_style .fa-times:hover .list_style{
   background-color: crimson;
 }
-
+  
+       
 
 @media(max-width :768px){
 
 .center_div{
-  width: 56%;
+  width: 50%;
 }
 
 .todo_style .fa-times{

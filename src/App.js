@@ -32,7 +32,7 @@ setArItems((olditem)=>{
 return (
       <>
       <div className="main_div">
-        <div className="center_div">
+        <div className="center_div  bgtext">
         <i className="i_style">Developed by Sandeep <b>- REACT APP</b></i>
 
           <br/>

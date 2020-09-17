@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AddItems_App/static/css/main.984836cc.chunk.css",
+    "main.js": "/AddItems_App/static/js/main.00560029.chunk.js",
+    "main.js.map": "/AddItems_App/static/js/main.00560029.chunk.js.map",
+    "runtime-main.js": "/AddItems_App/static/js/runtime-main.7724f454.js",
+    "runtime-main.js.map": "/AddItems_App/static/js/runtime-main.7724f454.js.map",
+    "static/js/2.ff977aae.chunk.js": "/AddItems_App/static/js/2.ff977aae.chunk.js",
+    "static/js/2.ff977aae.chunk.js.map": "/AddItems_App/static/js/2.ff977aae.chunk.js.map",
+    "index.html": "/AddItems_App/index.html",
+    "precache-manifest.214709a9fd7f504c294f2d6c6516cf7a.js": "/AddItems_App/precache-manifest.214709a9fd7f504c294f2d6c6516cf7a.js",
+    "service-worker.js": "/AddItems_App/service-worker.js",
+    "static/css/main.984836cc.chunk.css.map": "/AddItems_App/static/css/main.984836cc.chunk.css.map",
+    "static/js/2.ff977aae.chunk.js.LICENSE.txt": "/AddItems_App/static/js/2.ff977aae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7724f454.js",
+    "static/js/2.ff977aae.chunk.js",
+    "static/css/main.984836cc.chunk.css",
+    "static/js/main.00560029.chunk.js"
+  ]
+}
